@@ -293,7 +293,7 @@ Options:
 # Read the distributions list
   osc api /distributions
 # Udate the distributions list
-  osc api /distributions -T /tmp/distributions.xml
+  osc api /distributions/bulk_replace -T /tmp/distributions.xml
 
 # retrieve statistics
   osc api /statistics/latest_added</screen>

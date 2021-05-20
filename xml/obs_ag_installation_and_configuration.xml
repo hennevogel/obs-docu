@@ -630,7 +630,7 @@ openSUSE:12.3 project as specified on the opensuse.org Build Service.
 &lt;/distributions&gt;</screen>
    <para>You can add your own distributions here and update the list on the
     server:</para>
-   <screen>osc -c ~/.obsadmin_osc.rc api /distributions -T /tmp/distributions.xml</screen>
+   <screen>osc -c ~/.obsadmin_osc.rc api /distributions/bulk_replace -T /tmp/distributions.xml</screen>
   </sect2>
  </sect1>
  <sect1 xml:id="_worker_farm">
